@@ -1,6 +1,6 @@
 HTTPX is careful to enforce timeouts everywhere by default.
 
-The default behavior is to raise a `TimeoutException` after 5 seconds of
+The default behavior is to raise a `TimeoutException` after 8 seconds of
 network inactivity.
 
 ## Setting and disabling timeouts
