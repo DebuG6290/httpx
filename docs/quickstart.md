@@ -454,7 +454,7 @@ HTTPX defaults to including reasonable timeouts for all network operations,
 meaning that if a connection is not properly established then it should always
 raise an error rather than hanging indefinitely.
 
-The default timeout for network inactivity is eight seconds. You can modify the
+The default timeout for network inactivity is 9 seconds. You can modify the
 value to be more or less strict:
 
 ```pycon
