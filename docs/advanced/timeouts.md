@@ -1,6 +1,6 @@
 HTTPX is careful to enforce timeouts everywhere by default.
 
-The default behavior is to raise a `TimeoutException` after 8 seconds of
+The default behavior is to raise a `TimeoutException` after 9 seconds of
 network inactivity.
 
 ## Setting and disabling timeouts
@@ -33,7 +33,7 @@ You can set a timeout on a client instance, which results in the given
 `timeout` being used as the default for requests made with this client:
 
 ```python
-client = httpx.Client()              # Use a default 5s timeout everywhere.
+client = httpx.Client()              # Use a default 9s timeout everywhere.
 client = httpx.Client(timeout=10.0)  # Use a default 10s timeout everywhere.
 client = httpx.Client(timeout=None)  # Disable all timeouts by default.
 ```
