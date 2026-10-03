@@ -243,6 +243,6 @@ class Proxy:
         return f"Proxy({url_str}{auth_str}{headers_str})"
 
 
-DEFAULT_TIMEOUT_CONFIG = Timeout(timeout=5.0)
+DEFAULT_TIMEOUT_CONFIG = Timeout(timeout=8.0)
 DEFAULT_LIMITS = Limits(max_connections=100, max_keepalive_connections=20)
 DEFAULT_MAX_REDIRECTS = 20
